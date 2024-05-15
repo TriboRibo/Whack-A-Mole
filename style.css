@@ -1,3 +1,18 @@
+.bigBox {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+}
 
+.box {
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */

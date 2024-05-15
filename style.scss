@@ -1,0 +1,17 @@
+@mixin padMarg{
+  padding: 10px;
+  margin: 10px;
+}
+.bigBox{
+  border: 1px solid black;
+  @include padMarg;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+}
+.box {
+  background-color: whitesmoke;
+  @include padMarg;
+}
