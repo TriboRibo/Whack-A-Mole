@@ -2,6 +2,7 @@
   border: 1px solid black;
   padding: 10px;
   margin: 10px;
+  border-radius: 10px;
   width: 500px;
   height: 500px;
   display: grid;
@@ -13,10 +14,28 @@
   background-color: whitesmoke;
   padding: 10px;
   margin: 10px;
+  border-radius: 10px;
+  user-select: none;
 }
 
 .up {
-  background-color: #1a1d20;
+  background-image: url("https://www.pngkey.com/png/full/838-8380514_mole-image-cartoon-mole-transparent-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.up:hover {
+  cursor: pointer;
+}
+
+.score {
+  font-family: "Rubik Vinyl", system-ui;
+  letter-spacing: 3px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  user-select: none;
 }
 
 /*# sourceMappingURL=style.css.map */

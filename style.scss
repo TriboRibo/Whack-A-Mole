@@ -1,6 +1,7 @@
 @mixin padMarg{
   padding: 10px;
   margin: 10px;
+  border-radius: 10px;
 }
 .bigBox{
   border: 1px solid black;
@@ -14,7 +15,21 @@
 .box {
   background-color: whitesmoke;
   @include padMarg;
+  user-select: none;
 }
 .up{
-  background-color: #1a1d20;
+  background-image: url("https://www.pngkey.com/png/full/838-8380514_mole-image-cartoon-mole-transparent-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.score {
+  font-family: "Rubik Vinyl", system-ui;
+  letter-spacing: 3px;
+  @include padMarg;
+  font-size: 20px;
+  user-select: none;
 }
