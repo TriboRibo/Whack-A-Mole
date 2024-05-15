@@ -24,7 +24,7 @@ function peep(){
     }, time)
 }
 function bonk(e) {
-    if (!e.isTrusted || !this.classList.contains('up')) return; // Prevent cheating by automated clicking
+    if (!e.isTrusted || !this.classList.contains('up')) return;
     score++;
     this.classList.remove('up');
     scoreDisplay.textContent = "Score: " + score;
